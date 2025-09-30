@@ -1,0 +1,769 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2076599557944808408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6553816350308242194, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 1762765167267674941}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3273561913301341757}
+  - component: {fileID: 4634353190244080173}
+  - component: {fileID: 7618036832673101271}
+  - component: {fileID: 7312715182344381958}
+  m_Layer: 0
+  m_Name: medical lootcrate (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3273561913301341757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 1762765167267674941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076599557944808408}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.32880393, z: -0, w: 0.9443983}
+  m_LocalPosition: {x: 0.02331543, y: 0.5792859, z: 0.0062408447}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6985626782906417721}
+  m_LocalEulerAnglesHint: {x: 0, y: 38.392, z: 0}
+--- !u!33 &4634353190244080173
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7356592637576103437, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 1762765167267674941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076599557944808408}
+  m_Mesh: {fileID: -1550514412580984892, guid: c0ac0b8e784645c4094d8f5c4d832769, type: 3}
+--- !u!23 &7618036832673101271
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4752187451318645447, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 1762765167267674941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076599557944808408}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e5b9138c8ec782c478dae96f9bc2f697, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7312715182344381958
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1286626674102781626, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 1762765167267674941}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076599557944808408}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0577688, y: 0.35011268, z: 0.49880737}
+  m_Center: {x: 0, y: 0.17505631, z: 0}
+--- !u!1 &6058288344809308895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6553816350308242194, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 1398274243611821595}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2044198716636187899}
+  - component: {fileID: 4421485749699482067}
+  - component: {fileID: 7882587148088415612}
+  - component: {fileID: 536844351215836323}
+  m_Layer: 0
+  m_Name: medical lootcrate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2044198716636187899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 1398274243611821595}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6058288344809308895}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.02331543, y: 0.21408042, z: 0.0062408447}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6985626782906417721}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!33 &4421485749699482067
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7356592637576103437, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 1398274243611821595}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6058288344809308895}
+  m_Mesh: {fileID: -1550514412580984892, guid: c0ac0b8e784645c4094d8f5c4d832769, type: 3}
+--- !u!23 &7882587148088415612
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4752187451318645447, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 1398274243611821595}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6058288344809308895}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e5b9138c8ec782c478dae96f9bc2f697, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &536844351215836323
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1286626674102781626, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 1398274243611821595}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6058288344809308895}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0577688, y: 0.35011268, z: 0.49880737}
+  m_Center: {x: 0, y: 0.17505631, z: 0}
+--- !u!1 &7498725619707065910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6553816350308242194, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 6488198717360184372}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 459023162721372836}
+  - component: {fileID: 272640650027006067}
+  - component: {fileID: 8657969624589571594}
+  - component: {fileID: 3039639220333474194}
+  m_Layer: 0
+  m_Name: medical lootcrate (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &459023162721372836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 6488198717360184372}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7498725619707065910}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.02331543, y: 1.0026909, z: 0.0062408447}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6985626782906417721}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!33 &272640650027006067
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7356592637576103437, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 6488198717360184372}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7498725619707065910}
+  m_Mesh: {fileID: -1550514412580984892, guid: c0ac0b8e784645c4094d8f5c4d832769, type: 3}
+--- !u!23 &8657969624589571594
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4752187451318645447, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 6488198717360184372}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7498725619707065910}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e5b9138c8ec782c478dae96f9bc2f697, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3039639220333474194
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1286626674102781626, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 6488198717360184372}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7498725619707065910}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0577688, y: 0.35011268, z: 0.49880737}
+  m_Center: {x: 0, y: 0.17505631, z: 0}
+--- !u!1 &8001643018837141269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6553816350308242194, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 3457180802454666021}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7447055205547722171}
+  - component: {fileID: 7386730230600142536}
+  - component: {fileID: 4319407346834361408}
+  - component: {fileID: 3834170953032963978}
+  m_Layer: 0
+  m_Name: medical lootcrate (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7447055205547722171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 3457180802454666021}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8001643018837141269}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.14509194, z: -0, w: 0.9894182}
+  m_LocalPosition: {x: 0.02331543, y: 1.3678964, z: 0.0062408447}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6985626782906417721}
+  m_LocalEulerAnglesHint: {x: 0, y: -16.685, z: 0}
+--- !u!33 &7386730230600142536
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7356592637576103437, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 3457180802454666021}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8001643018837141269}
+  m_Mesh: {fileID: -1550514412580984892, guid: c0ac0b8e784645c4094d8f5c4d832769, type: 3}
+--- !u!23 &4319407346834361408
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4752187451318645447, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 3457180802454666021}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8001643018837141269}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e5b9138c8ec782c478dae96f9bc2f697, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3834170953032963978
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1286626674102781626, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+  m_PrefabInstance: {fileID: 3457180802454666021}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8001643018837141269}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0577688, y: 0.35011268, z: 0.49880737}
+  m_Center: {x: 0, y: 0.17505631, z: 0}
+--- !u!1001 &1398274243611821595
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6985626782906417721}
+    m_Modifications:
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1294.3983
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.21408047
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.100994
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6553816350308242194, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_Name
+      value: medical lootcrate
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+--- !u!1001 &1762765167267674941
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6985626782906417721}
+    m_Modifications:
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1294.445
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.579286
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.100994
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9443983
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.32880393
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 38.392
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6553816350308242194, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_Name
+      value: medical lootcrate (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+--- !u!1001 &3457180802454666021
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6985626782906417721}
+    m_Modifications:
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1294.445
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3678964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.100994
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9894182
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.14509194
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -16.685
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6553816350308242194, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_Name
+      value: medical lootcrate (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+--- !u!1001 &6488198717360184372
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6985626782906417721}
+    m_Modifications:
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1294.3983
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0026909
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.100994
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888462644422461864, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6553816350308242194, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+      propertyPath: m_Name
+      value: medical lootcrate (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 27ca528e7c196374da6b151124b71860, type: 3}
+--- !u!1001 &7456650301952157138
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1294.4216
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.000000046166996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.094753
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7b3a5ce910ece98429d1ead6920150ca, type: 2}
+    - target: {fileID: 919132149155446097, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      propertyPath: m_Name
+      value: kastlow (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2044198716636187899}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3273561913301341757}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7447055205547722171}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 459023162721372836}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8018130311574912499}
+  m_SourcePrefab: {fileID: 100100000, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+--- !u!4 &6985626782906417721 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+  m_PrefabInstance: {fileID: 7456650301952157138}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7762585217741084803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+  m_PrefabInstance: {fileID: 7456650301952157138}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8018130311574912499
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7762585217741084803}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.55617785, y: 2.0026908, z: 1.0561779}
+  m_Center: {x: 0.00000014901161, y: 1.0013454, z: 0.00000017881393}
