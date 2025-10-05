@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1511063256210700798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1373744596929099544}
+  m_Layer: 0
+  m_Name: M939 Bak
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1373744596929099544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511063256210700798}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13.65, y: 1.6020621, z: -18.624}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1018900822474276064}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &696199334577036043
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1373744596929099544}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.58306205
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.9040003
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7510721709763457833, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 013cb01aacb80474db3c950f81a4c021, type: 2}
+    - target: {fileID: -6603795987387150349, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 013cb01aacb80474db3c950f81a4c021, type: 2}
+    - target: {fileID: -6093592463355912122, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c66f57e7245fac647b7e392b0fb9581e, type: 2}
+    - target: {fileID: -1869544247151483434, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 61508c058c2d71c45b1b5418fe3af6e6, type: 2}
+    - target: {fileID: -1869544247151483434, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9a3f1729c482d5f4db99417fa5f1ee38, type: 2}
+    - target: {fileID: -1806680513116206669, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c66f57e7245fac647b7e392b0fb9581e, type: 2}
+    - target: {fileID: -793942009872682219, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4b186b34716872142b2402dce9fa9106, type: 2}
+    - target: {fileID: 919132149155446097, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: m_Name
+      value: MilitaryTruckAchterbak+KlepRealsize
+      objectReference: {fileID: 0}
+    - target: {fileID: 4808454999379435783, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fef2609a80c61fa469bc3b70d077d4a0, type: 2}
+    - target: {fileID: 4808454999379435783, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9f8cf3f8604e64f49a2b783fb234f7f6, type: 2}
+    - target: {fileID: 6745302439343835087, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c66f57e7245fac647b7e392b0fb9581e, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+--- !u!4 &1018900822474276064 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e0127e50300359b4c89edb7270ae43d9, type: 3}
+  m_PrefabInstance: {fileID: 696199334577036043}
+  m_PrefabAsset: {fileID: 0}
