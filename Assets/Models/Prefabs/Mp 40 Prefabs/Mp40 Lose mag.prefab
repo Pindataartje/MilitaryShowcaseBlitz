@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2016487907958233419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7392289598975793590}
+  m_Layer: 0
+  m_Name: Mp40 Lose mag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7392289598975793590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016487907958233419}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.274, y: 0.4491, z: -0.552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2114248639536475329}
+  - {fileID: 3448118289061700823}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1935959132508113706
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7392289598975793590}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b7e5e504db1f08942ae4f9a6f2285a68, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7e5e504db1f08942ae4f9a6f2285a68, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7e5e504db1f08942ae4f9a6f2285a68, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7e5e504db1f08942ae4f9a6f2285a68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.60843396
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7e5e504db1f08942ae4f9a6f2285a68, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.608434
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7e5e504db1f08942ae4f9a6f2285a68, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.360289
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7e5e504db1f08942ae4f9a6f2285a68, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.3602889
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7e5e504db1f08942ae4f9a6f2285a68, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7e5e504db1f08942ae4f9a6f2285a68, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b7e5e504db1f08942ae4f9a6f2285a68, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 61.264
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7e5e504db1f08942ae4f9a6f2285a68, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 14e0d02554c3f5c449b113ce31a0b62b, type: 2}
+    - target: {fileID: 919132149155446097, guid: b7e5e504db1f08942ae4f9a6f2285a68, type: 3}
+      propertyPath: m_Name
+      value: Mp40Lowpoly
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b7e5e504db1f08942ae4f9a6f2285a68, type: 3}
+--- !u!4 &2114248639536475329 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b7e5e504db1f08942ae4f9a6f2285a68, type: 3}
+  m_PrefabInstance: {fileID: 1935959132508113706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2904984684367807292
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7392289598975793590}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3ba3f636848e0cd48a85f8670ffb6d19, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.045700014
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ba3f636848e0cd48a85f8670ffb6d19, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0041999817
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ba3f636848e0cd48a85f8670ffb6d19, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.13819999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ba3f636848e0cd48a85f8670ffb6d19, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6785079
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ba3f636848e0cd48a85f8670ffb6d19, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6785079
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ba3f636848e0cd48a85f8670ffb6d19, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.1990654
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ba3f636848e0cd48a85f8670ffb6d19, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.1990654
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ba3f636848e0cd48a85f8670ffb6d19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ba3f636848e0cd48a85f8670ffb6d19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -32.702
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3ba3f636848e0cd48a85f8670ffb6d19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3ba3f636848e0cd48a85f8670ffb6d19, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d954df39ed7a9864489b70a059507da4, type: 2}
+    - target: {fileID: 919132149155446097, guid: 3ba3f636848e0cd48a85f8670ffb6d19, type: 3}
+      propertyPath: m_Name
+      value: Mp40Mag
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba3f636848e0cd48a85f8670ffb6d19, type: 3}
+--- !u!4 &3448118289061700823 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3ba3f636848e0cd48a85f8670ffb6d19, type: 3}
+  m_PrefabInstance: {fileID: 2904984684367807292}
+  m_PrefabAsset: {fileID: 0}
