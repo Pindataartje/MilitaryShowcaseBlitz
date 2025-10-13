@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3078446429351169241}
+  - component: {fileID: 6200204076547486085}
   m_Layer: 0
   m_Name: Koelekast V2
   m_TagString: Untagged
@@ -34,6 +35,27 @@ Transform:
   - {fileID: 2403402189344534811}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6200204076547486085
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336666338959811344}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1679067271777374442
 GameObject:
   m_ObjectHideFlags: 0
@@ -45,6 +67,7 @@ GameObject:
   - component: {fileID: 5874894954605700686}
   - component: {fileID: 5819844999761094083}
   - component: {fileID: 3310600088767905115}
+  - component: {fileID: 3218514963573566663}
   m_Layer: 0
   m_Name: GlasEnzo.001
   m_TagString: Untagged
@@ -120,6 +143,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3218514963573566663
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679067271777374442}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08193478, y: 1.0556713, z: 0.6306795}
+  m_Center: {x: 0.0007744059, y: 0.5027482, z: 0.0007252693}
 --- !u!1 &4482153581274986871
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,6 +262,7 @@ GameObject:
   - component: {fileID: 5973347228953044009}
   - component: {fileID: 6581710930358732312}
   - component: {fileID: 4391010933001999542}
+  - component: {fileID: 2482061235937188818}
   m_Layer: 0
   m_Name: Fridge
   m_TagString: Untagged
@@ -293,6 +338,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2482061235937188818
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7864532305577304993}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5643265, y: 1.5999999, z: 0.70668817}
+  m_Center: {x: 0.042836733, y: 0.79999995, z: -0.003344074}
 --- !u!1 &9054398336146334938
 GameObject:
   m_ObjectHideFlags: 0
