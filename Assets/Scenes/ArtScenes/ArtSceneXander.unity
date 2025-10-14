@@ -3097,6 +3097,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbd5c1b3cc16370488f3c5d79f52cebd, type: 3}
+--- !u!1001 &4574416043527079219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2489342409534391597, guid: fab11937648a4a24580c14917ca679be, type: 3}
+      propertyPath: m_Name
+      value: MilitaryHelicopterV3_fbx
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008469524915462039, guid: fab11937648a4a24580c14917ca679be, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.185707
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008469524915462039, guid: fab11937648a4a24580c14917ca679be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008469524915462039, guid: fab11937648a4a24580c14917ca679be, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.234426
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008469524915462039, guid: fab11937648a4a24580c14917ca679be, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008469524915462039, guid: fab11937648a4a24580c14917ca679be, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008469524915462039, guid: fab11937648a4a24580c14917ca679be, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008469524915462039, guid: fab11937648a4a24580c14917ca679be, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008469524915462039, guid: fab11937648a4a24580c14917ca679be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008469524915462039, guid: fab11937648a4a24580c14917ca679be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3008469524915462039, guid: fab11937648a4a24580c14917ca679be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fab11937648a4a24580c14917ca679be, type: 3}
 --- !u!1001 &4638872762835614311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3801,6 +3858,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41b150ad3f8d36d4fa2cc3604ada9261, type: 3}
+--- !u!1001 &7610646192701923295
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1539674510820458358, guid: 1a8e35a1f07b852489686f22f166f468, type: 3}
+      propertyPath: m_Name
+      value: MilitaryHelicopterV1_fbx
+      objectReference: {fileID: 0}
+    - target: {fileID: 2167873420142667212, guid: 1a8e35a1f07b852489686f22f166f468, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 2167873420142667212, guid: 1a8e35a1f07b852489686f22f166f468, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2167873420142667212, guid: 1a8e35a1f07b852489686f22f166f468, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 16.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2167873420142667212, guid: 1a8e35a1f07b852489686f22f166f468, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2167873420142667212, guid: 1a8e35a1f07b852489686f22f166f468, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2167873420142667212, guid: 1a8e35a1f07b852489686f22f166f468, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2167873420142667212, guid: 1a8e35a1f07b852489686f22f166f468, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2167873420142667212, guid: 1a8e35a1f07b852489686f22f166f468, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2167873420142667212, guid: 1a8e35a1f07b852489686f22f166f468, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2167873420142667212, guid: 1a8e35a1f07b852489686f22f166f468, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1a8e35a1f07b852489686f22f166f468, type: 3}
 --- !u!1001 &7864100443339411543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4479,3 +4593,5 @@ SceneRoots:
   - {fileID: 2115845307}
   - {fileID: 1335577841}
   - {fileID: 1934087219}
+  - {fileID: 7610646192701923295}
+  - {fileID: 4574416043527079219}
