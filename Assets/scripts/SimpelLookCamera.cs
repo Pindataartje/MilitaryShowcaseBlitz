@@ -1,44 +1,56 @@
 using UnityEngine;
 
-/// <summary>
-/// Simple first-person mouse look. Attach to the camera.
-/// </summary>
 public class SimpleMouseLook : MonoBehaviour
 {
-    public Transform playerBody;       // usually the capsule transform
-    public float mouseSensitivity = 200f;
-    public float smoothTime = 0.02f;
-    public bool lockCursor = true;
-    public float minY = -85f;
-    public float maxY = 85f;
+    [SerializeField] Transform playerBody;
+    [SerializeField] float sensitivity = 1.5f;
+    [SerializeField] float smoothingTime = 0.05f;      // 0 = no smoothing, higher = smoother
+    [SerializeField] bool lockCursor = true;
+    [SerializeField] float minY = -85f;
+    [SerializeField] float maxY = 85f;
 
-    float xRotation = 0f;
-    Vector2 currentMouseDelta;
-    Vector2 mouseDeltaVelocity;
+    float yaw;
+    float pitch;
+    Vector2 smoothedDelta;
+    Transform camTr;
+    Transform bodyTr;
 
-    void Start()
+    void Awake()
     {
-        if (playerBody == null && transform.parent != null)
-            playerBody = transform.parent;
+        camTr = transform;
+        bodyTr = playerBody != null ? playerBody : (transform.parent != null ? transform.parent : null);
         if (lockCursor)
         {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
         }
+        if (bodyTr) yaw = bodyTr.eulerAngles.y;
+        pitch = camTr.localEulerAngles.x;
+        if (pitch > 180f) pitch -= 360f;
     }
 
     void Update()
     {
-        Vector2 targetDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y")) * mouseSensitivity * Time.deltaTime;
-        currentMouseDelta = Vector2.SmoothDamp(currentMouseDelta, targetDelta, ref mouseDeltaVelocity, smoothTime);
+        float dx = Input.GetAxisRaw("Mouse X");
+        float dy = Input.GetAxisRaw("Mouse Y");
+        if (dx == 0f && dy == 0f) return;
 
-        // rotate camera pitch
-        xRotation -= currentMouseDelta.y;
-        xRotation = Mathf.Clamp(xRotation, minY, maxY);
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        Vector2 raw = new Vector2(dx, dy) * sensitivity;
 
-        // rotate player yaw
-        if (playerBody != null)
-            playerBody.Rotate(Vector3.up * currentMouseDelta.x);
+        if (smoothingTime > 0f)
+        {
+            float t = 1f - Mathf.Exp(-Time.unscaledDeltaTime / smoothingTime);
+            smoothedDelta += (raw - smoothedDelta) * t;
+        }
+        else
+        {
+            smoothedDelta = raw;
+        }
+
+        pitch = Mathf.Clamp(pitch - smoothedDelta.y, minY, maxY);
+        yaw += smoothedDelta.x;
+
+        camTr.localRotation = Quaternion.Euler(pitch, 0f, 0f);
+        if (bodyTr) bodyTr.rotation = Quaternion.Euler(0f, yaw, 0f);
     }
 }
