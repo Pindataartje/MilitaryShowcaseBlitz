@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 87095382873792964}
   m_Layer: 0
   m_Name: MilitaryTower
-  m_TagString: Untagged
+  m_TagString: Xander
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &87095382873792964
 Transform:
@@ -83,6 +83,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 5a078f2d878bbbc49a4d2001bd944ca6, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5a078f2d878bbbc49a4d2001bd944ca6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 8bacdd4807e5bd148a20f004df6b9172, type: 2}
@@ -94,11 +98,48 @@ PrefabInstance:
       propertyPath: m_Name
       value: MilitaryTowerInner&Overig
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a078f2d878bbbc49a4d2001bd944ca6, type: 3}
+      propertyPath: m_TagString
+      value: Xander
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a078f2d878bbbc49a4d2001bd944ca6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5a078f2d878bbbc49a4d2001bd944ca6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3420394478406350024}
   m_SourcePrefab: {fileID: 100100000, guid: 5a078f2d878bbbc49a4d2001bd944ca6, type: 3}
+--- !u!1 &3523281441430365808 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5a078f2d878bbbc49a4d2001bd944ca6, type: 3}
+  m_PrefabInstance: {fileID: 4333690017506646817}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3420394478406350024
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523281441430365808}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.737574, y: 2.9624119, z: 4.7375736}
+  m_Center: {x: 0.0015366077, y: 7.6874943, z: 0.06640148}
 --- !u!4 &4300626900346125514 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5a078f2d878bbbc49a4d2001bd944ca6, type: 3}
@@ -153,6 +194,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 9611b79aa0035f14f88c45ca2aa2dca0, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9611b79aa0035f14f88c45ca2aa2dca0, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 35873acd9fb1c3a448e2e8baff6a2301, type: 2}
@@ -160,11 +205,48 @@ PrefabInstance:
       propertyPath: m_Name
       value: MilitaryTowerOuterwalls
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9611b79aa0035f14f88c45ca2aa2dca0, type: 3}
+      propertyPath: m_TagString
+      value: Xander
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9611b79aa0035f14f88c45ca2aa2dca0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9611b79aa0035f14f88c45ca2aa2dca0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6395438063792000957}
   m_SourcePrefab: {fileID: 100100000, guid: 9611b79aa0035f14f88c45ca2aa2dca0, type: 3}
+--- !u!1 &8461975690172052642 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9611b79aa0035f14f88c45ca2aa2dca0, type: 3}
+  m_PrefabInstance: {fileID: 8768389587157322227}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6395438063792000957
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8461975690172052642}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.9453545, y: 8.723004, z: 2.9540586}
+  m_Center: {x: 0, y: 4.361502, z: 0.053497564}
 --- !u!4 &9089718298660204056 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9611b79aa0035f14f88c45ca2aa2dca0, type: 3}
@@ -219,6 +301,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: dc4adcd6f943428499a5255a079e407e, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dc4adcd6f943428499a5255a079e407e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: c387bde29231357489152c98fdb2f9ec, type: 2}
@@ -226,11 +312,48 @@ PrefabInstance:
       propertyPath: m_Name
       value: MilitaryTowerPlatform&Gaas
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dc4adcd6f943428499a5255a079e407e, type: 3}
+      propertyPath: m_TagString
+      value: Xander
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dc4adcd6f943428499a5255a079e407e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: dc4adcd6f943428499a5255a079e407e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4991397302862730610}
   m_SourcePrefab: {fileID: 100100000, guid: dc4adcd6f943428499a5255a079e407e, type: 3}
+--- !u!1 &8080606537176872507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dc4adcd6f943428499a5255a079e407e, type: 3}
+  m_PrefabInstance: {fileID: 8999736889962220394}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &4991397302862730610
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8080606537176872507}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.115275, y: 1.090704, z: 5.115275}
+  m_Center: {x: 0, y: 6.545351, z: 0}
 --- !u!4 &8894543816012344449 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dc4adcd6f943428499a5255a079e407e, type: 3}

@@ -52,9 +52,17 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Xander
       objectReference: {fileID: 0}
+    - target: {fileID: -8422677480263501569, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -5582355353541303114, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
       propertyPath: m_TagString
       value: Xander
+      objectReference: {fileID: 0}
+    - target: {fileID: -5582355353541303114, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -5168257407359714506, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -68,25 +76,45 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Xander
       objectReference: {fileID: 0}
+    - target: {fileID: -1893435112241857279, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -1732798338214216332, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
       propertyPath: m_TagString
       value: Xander
+      objectReference: {fileID: 0}
+    - target: {fileID: -1732798338214216332, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -82358763968010616, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
       propertyPath: m_TagString
       value: Xander
       objectReference: {fileID: 0}
+    - target: {fileID: -82358763968010616, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 203648086215510780, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
       propertyPath: m_TagString
       value: Xander
       objectReference: {fileID: 0}
+    - target: {fileID: 203648086215510780, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
       propertyPath: m_Name
-      value: MilitaryHelicopterV3_fbx
+      value: MilitaryHelicopterV2_fbx
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
       propertyPath: m_TagString
       value: Xander
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2481033105115318027, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -95,6 +123,10 @@ PrefabInstance:
     - target: {fileID: 2612863713221153509, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
       propertyPath: m_TagString
       value: Xander
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612863713221153509, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2956103354582688188, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -107,6 +139,10 @@ PrefabInstance:
     - target: {fileID: 4260496716624481874, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
       propertyPath: m_TagString
       value: Xander
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260496716624481874, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4748336934544137699, guid: 32abd641300d46e46b3b6c2d9e3c22fb, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'

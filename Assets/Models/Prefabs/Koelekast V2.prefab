@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3078446429351169241
 Transform:
@@ -68,12 +68,13 @@ GameObject:
   - component: {fileID: 5819844999761094083}
   - component: {fileID: 3310600088767905115}
   - component: {fileID: 3218514963573566663}
+  - component: {fileID: 8082759083367668896}
   m_Layer: 0
   m_Name: GlasEnzo.001
-  m_TagString: Untagged
+  m_TagString: Xander
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5874894954605700686
 Transform:
@@ -164,6 +165,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.08193478, y: 1.0556713, z: 0.6306795}
   m_Center: {x: 0.0007744059, y: 0.5027482, z: 0.0007252693}
+--- !u!64 &8082759083367668896
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679067271777374442}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4753733804390388742, guid: d42c77821427d044089d419662efbcec, type: 3}
 --- !u!1 &4482153581274986871
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,12 +198,13 @@ GameObject:
   - component: {fileID: 8387497077196185465}
   - component: {fileID: 36918561095811098}
   - component: {fileID: 1196890502400457967}
+  - component: {fileID: 6373638265767671605}
   m_Layer: 0
   m_Name: FridgeDoor
-  m_TagString: Untagged
+  m_TagString: Xander
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8387497077196185465
 Transform:
@@ -251,6 +275,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6373638265767671605
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4482153581274986871}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4128563218347521063, guid: d42c77821427d044089d419662efbcec, type: 3}
 --- !u!1 &7864532305577304993
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,12 +309,13 @@ GameObject:
   - component: {fileID: 6581710930358732312}
   - component: {fileID: 4391010933001999542}
   - component: {fileID: 2482061235937188818}
+  - component: {fileID: 4013370226435648265}
   m_Layer: 0
   m_Name: Fridge
-  m_TagString: Untagged
+  m_TagString: Xander
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5973347228953044009
 Transform:
@@ -359,6 +406,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5643265, y: 1.5999999, z: 0.70668817}
   m_Center: {x: 0.042836733, y: 0.79999995, z: -0.003344074}
+--- !u!64 &4013370226435648265
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7864532305577304993}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3082250236548730855, guid: d42c77821427d044089d419662efbcec, type: 3}
 --- !u!1 &9054398336146334938
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,12 +439,13 @@ GameObject:
   - component: {fileID: 2403402189344534811}
   - component: {fileID: 8420348033459419801}
   - component: {fileID: 2225491309839219808}
+  - component: {fileID: 2609463059179660799}
   m_Layer: 0
   m_Name: GlasEnzo
-  m_TagString: Untagged
+  m_TagString: Xander
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2403402189344534811
 Transform:
@@ -445,3 +515,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2609463059179660799
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9054398336146334938}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3064587236468581927, guid: d42c77821427d044089d419662efbcec, type: 3}
