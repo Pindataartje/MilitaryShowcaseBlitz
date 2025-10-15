@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c0ac0b8e784645c4094d8f5c4d832769, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1291.6315
+      value: 1247.1259
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c0ac0b8e784645c4094d8f5c4d832769, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000009323703
+      value: 0.74000144
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c0ac0b8e784645c4094d8f5c4d832769, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 37.1626
+      value: 34.1611
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c0ac0b8e784645c4094d8f5c4d832769, type: 3}
       propertyPath: m_LocalRotation.w
@@ -54,7 +54,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 160035c10cb78fe4c8aece10ec8f0c4a, type: 2}
     - target: {fileID: 919132149155446097, guid: c0ac0b8e784645c4094d8f5c4d832769, type: 3}
       propertyPath: m_Name
-      value: Lootcrate low
+      value: potatoes
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c0ac0b8e784645c4094d8f5c4d832769, type: 3}
+      propertyPath: m_TagString
+      value: "Corn\xE9"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
