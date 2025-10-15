@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: full character
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 44d2864a1e431b64dab40de6b743481e, type: 3}
+      propertyPath: m_TagString
+      value: joey
+      objectReference: {fileID: 0}
     - target: {fileID: 5315031482018695951, guid: 44d2864a1e431b64dab40de6b743481e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
