@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: fd805864b14731b40af1e9880eaa2101, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1232.778
+      value: 617.9707
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd805864b14731b40af1e9880eaa2101, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00026105923
+      value: 0.81262946
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd805864b14731b40af1e9880eaa2101, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.465511
+      value: 380.76376
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd805864b14731b40af1e9880eaa2101, type: 3}
       propertyPath: m_LocalRotation.w
@@ -55,6 +55,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fd805864b14731b40af1e9880eaa2101, type: 3}
       propertyPath: m_Name
       value: bord2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd805864b14731b40af1e9880eaa2101, type: 3}
+      propertyPath: m_TagString
+      value: "Corn\xE9"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
