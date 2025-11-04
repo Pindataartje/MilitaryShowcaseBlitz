@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrateLowPolyOpen
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e59c877d56a6f704aa31cf3e6fcd298d, type: 3}
+      propertyPath: m_TagString
+      value: Xander
+      objectReference: {fileID: 0}
     - target: {fileID: 5820761749463478437, guid: e59c877d56a6f704aa31cf3e6fcd298d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.54395986
