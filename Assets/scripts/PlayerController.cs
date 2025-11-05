@@ -1,129 +1,126 @@
 using UnityEngine;
 
-/// <summary>
-/// Simple, robust player controller using CharacterController:
-/// - WASD / Arrow keys to move
-/// - Hold Left Shift to sprint
-/// - Space to jump
-/// - Handles gravity & smooth falling
-/// </summary>
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
-    [Header("Movement")]
+    [Header("Speeds")]
     public float walkSpeed = 4f;
     public float sprintSpeed = 8f;
-    [Range(0f, 1f)] public float movementSmoothTime = 0.08f;
+
+    [Header("Acceleration")]
+    public float accel = 20f;          // how fast you reach target speed while pressing input
+    public float decel = 25f;          // how fast you stop when releasing input
+    public float airAccel = 6f;        // limited air steering
+    [Range(0f, 1f)] public float airControl = 0.35f; // how much you can re-aim mid-air (0..1)
 
     [Header("Jump & Gravity")]
-    public float jumpHeight = 1.6f;          // peak jump height (meters)
-    public float gravity = -24f;             // stronger than default for snappier feel
-    public float groundedGraceTime = 0.1f;   // allow small forgiveness for jump input
+    public float jumpHeight = 1.6f;
+    public float gravity = -24f;
+    public float groundedGraceTime = 0.12f;   // coyote time
+    public float jumpBufferTime = 0.15f;      // jump pressed slightly before landing
+    public float groundStickForce = 5f;       // keeps you glued to slopes when grounded
 
     [Header("References")]
-    public Transform cameraTransform;        // used to rotate movement with camera
+    public Transform cameraTransform;
 
     CharacterController cc;
-    Vector3 velocity;             // vertical velocity (y)
-    Vector3 currentMovement;      // smoothed horizontal movement
-    Vector3 movementVelocityRef;  // used by SmoothDamp
+
+    // Horizontal velocity we control (x,z). We do NOT rotate this with the camera.
+    Vector3 horizontalVel; // y=0
+    float verticalVel;
 
     float lastGroundedTime;
-    float jumpInputTime;
-    bool jumpRequested;
+    float lastJumpPressedTime;
 
     void Awake()
     {
         cc = GetComponent<CharacterController>();
-        if (cameraTransform == null && Camera.main != null)
-            cameraTransform = Camera.main.transform;
+        if (!cameraTransform && Camera.main) cameraTransform = Camera.main.transform;
     }
 
     void Update()
     {
-        ReadInput();
-        HandleMovement();
-    }
-
-    void ReadInput()
-    {
-        // Horizontal & vertical input (WASD / arrows)
-        float h = Input.GetAxisRaw("Horizontal"); // raw for snappy input
+        // --- INPUT ---
+        float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
+        Vector3 input = new Vector3(h, 0f, v);
+        input = Vector3.ClampMagnitude(input, 1f);
 
-        // Convert input to camera-relative direction
-        Vector3 inputDir = new Vector3(h, 0f, v);
-        inputDir = Vector3.ClampMagnitude(inputDir, 1f);
-
-        if (cameraTransform != null)
+        // Camera-relative desired direction (world space)
+        Vector3 camF = Vector3.forward, camR = Vector3.right;
+        if (cameraTransform)
         {
-            Vector3 forward = cameraTransform.forward;
-            Vector3 right = cameraTransform.right;
-            forward.y = 0f;
-            right.y = 0f;
-            forward.Normalize();
-            right.Normalize();
-            Vector3 worldDir = forward * inputDir.z + right * inputDir.x;
-            // smoothly interpolate movement
-            float targetSpeed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed;
-            Vector3 targetMovement = worldDir * targetSpeed;
-            currentMovement = Vector3.SmoothDamp(currentMovement, targetMovement, ref movementVelocityRef, movementSmoothTime);
+            camF = cameraTransform.forward; camF.y = 0f; camF.Normalize();
+            camR = cameraTransform.right; camR.y = 0f; camR.Normalize();
         }
-        else
-        {
-            // fallback: local-space movement
-            Vector3 targetMovement = transform.TransformDirection(inputDir) * (Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed);
-            currentMovement = Vector3.SmoothDamp(currentMovement, targetMovement, ref movementVelocityRef, movementSmoothTime);
-        }
+        Vector3 desiredDir = (camF * input.z + camR * input.x); // world dir, y=0
 
-        // Jump input
+        float targetSpeed = (Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed);
+        Vector3 targetHorizontalVel = desiredDir * targetSpeed; // desired horizontal velocity (y=0)
+
+        // Jump input buffer
         if (Input.GetButtonDown("Jump"))
-        {
-            jumpRequested = true;
-            jumpInputTime = Time.time;
-        }
+            lastJumpPressedTime = Time.time;
 
-        // Track grounded time for jump grace
-        if (cc.isGrounded)
-            lastGroundedTime = Time.time;
-    }
+        // Grounded bookkeeping / coyote time
+        bool grounded = cc.isGrounded;
+        if (grounded) lastGroundedTime = Time.time;
 
-    void HandleMovement()
-    {
-        // Apply gravity
-        if (cc.isGrounded && velocity.y <= 0f)
+        // --- HORIZONTAL VELOCITY UPDATE ---
+        // We explicitly move toward the target velocity. No SmoothDamp, no camera “re-aim” of existing velocity.
+        float usedAccel;
+        if (grounded)
         {
-            velocity.y = -2f; // small negative to keep contact with ground
+            // accelerate when input present, decelerate faster when no input
+            bool hasInput = input.sqrMagnitude > 0.0001f;
+            usedAccel = hasInput ? accel : decel;
         }
         else
         {
-            velocity.y += gravity * Time.deltaTime;
+            usedAccel = airAccel;
+            // In air, only allow partial steering towards the desired velocity, preserving momentum.
+            // Blend the *direction* a bit to avoid instant heading snaps mid-air.
+            if (targetHorizontalVel.sqrMagnitude > 0.0001f)
+            {
+                Vector3 aim = Vector3.Lerp(horizontalVel, targetHorizontalVel, airControl);
+                targetHorizontalVel = aim;
+            }
         }
+        horizontalVel = Vector3.MoveTowards(horizontalVel, targetHorizontalVel, usedAccel * Time.deltaTime);
 
-        // Jump logic with small grace time
-        bool canJump = (Time.time - lastGroundedTime) <= groundedGraceTime;
-        if (jumpRequested && canJump)
+        // --- VERTICAL VELOCITY / JUMP ---
+        // Gravity
+        if (grounded && verticalVel < 0f)
         {
-            // v = sqrt(2 * g * h) but gravity is negative
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-            jumpRequested = false;
+            // small negative keeps contact; also apply extra stick to avoid micro bounces on slopes
+            verticalVel = -2f;
+            verticalVel += gravity * groundStickForce * Time.deltaTime;
         }
-        // Clear jump request if too old (optional)
-        if (jumpRequested && (Time.time - jumpInputTime) > 0.2f)
-            jumpRequested = false;
+        else
+        {
+            verticalVel += gravity * Time.deltaTime;
+        }
 
-        // Combine horizontal movement and vertical velocity
-        Vector3 move = currentMovement * Time.deltaTime;
-        move += new Vector3(0f, velocity.y * Time.deltaTime, 0f);
+        // Jump (coyote + buffer)
+        bool canJump = (Time.time - lastGroundedTime) <= groundedGraceTime;
+        bool buffered = (Time.time - lastJumpPressedTime) <= jumpBufferTime;
+        if (buffered && canJump)
+        {
+            verticalVel = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            lastJumpPressedTime = -999f; // consume buffer
+            lastGroundedTime = -999f;    // consume coyote
+        }
 
-        cc.Move(move);
+        // --- MOVE ---
+        Vector3 move = horizontalVel;
+        move.y = verticalVel;
+        cc.Move(move * Time.deltaTime);
     }
 
-    // Optional: visualize ground check in editor (CharacterController center/radius)
     void OnDrawGizmosSelected()
     {
-        if (cc == null) cc = GetComponent<CharacterController>();
-        if (cc == null) return;
+        if (!cc) cc = GetComponent<CharacterController>();
+        if (!cc) return;
         Gizmos.color = Color.cyan;
         Gizmos.DrawWireSphere(transform.position + cc.center - new Vector3(0, cc.height / 2 - cc.radius, 0), cc.radius);
     }

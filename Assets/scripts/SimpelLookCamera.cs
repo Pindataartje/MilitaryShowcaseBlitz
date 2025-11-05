@@ -4,7 +4,7 @@ public class SimpleMouseLook : MonoBehaviour
 {
     [SerializeField] Transform playerBody;
     [SerializeField] float sensitivity = 1.5f;
-    [SerializeField] float smoothingTime = 0.05f;      // 0 = no smoothing, higher = smoother
+    [SerializeField] float smoothingTime = 0.05f;
     [SerializeField] bool lockCursor = true;
     [SerializeField] float minY = -85f;
     [SerializeField] float maxY = 85f;
@@ -27,6 +27,11 @@ public class SimpleMouseLook : MonoBehaviour
         if (bodyTr) yaw = bodyTr.eulerAngles.y;
         pitch = camTr.localEulerAngles.x;
         if (pitch > 180f) pitch -= 360f;
+    }
+
+    void OnApplicationFocus(bool hasFocus)
+    {
+        if (hasFocus) smoothedDelta = Vector2.zero;
     }
 
     void Update()
