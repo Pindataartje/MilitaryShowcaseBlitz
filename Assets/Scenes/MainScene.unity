@@ -3942,10 +3942,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'dak '
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 310c4b65aa7caa54c8289c79a071ab74, type: 3}
+      propertyPath: m_TagString
+      value: "Corn\xE9"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 310c4b65aa7caa54c8289c79a071ab74, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1698189781}
   m_SourcePrefab: {fileID: 100100000, guid: 310c4b65aa7caa54c8289c79a071ab74, type: 3}
 --- !u!1 &145958837
 GameObject:
@@ -7853,6 +7860,7 @@ MonoBehaviour:
   - {fileID: 1343684104130153776, guid: d787f88e4f23d37498c0e1417f4598ea, type: 3}
   - {fileID: 1360083755257380281, guid: 8c4c0e145d97b6d45a2b3edb17dda88a, type: 3}
   - {fileID: 7900474255768311404, guid: 07a881e9c24056047829f3d35e7a2f7a, type: 3}
+  - {fileID: 1698189778}
   - {fileID: 7166794441596939308, guid: d5d42d2370525b2489acbd6b30562956, type: 3}
   - {fileID: 6556348441577546388, guid: d5e7a9125e51e3041aab295f9d8ec598, type: 3}
   - {fileID: 4387541041915607889, guid: 59394a7a0be9ba644a6581492ff4a337, type: 3}
@@ -36997,6 +37005,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1415328431269205218, guid: bc81824c78e3aa240837be0e7011bfdc, type: 3}
   m_PrefabInstance: {fileID: 1689030141}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1698189778 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 310c4b65aa7caa54c8289c79a071ab74, type: 3}
+  m_PrefabInstance: {fileID: 144539743}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1698189781
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698189778}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 24.727037, y: 3.561733, z: 14.92526}
+  m_Center: {x: 0, y: 0.7808665, z: 0}
 --- !u!1001 &1698813854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54568,12 +54602,12 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: cd3132aa6d23caf468c0a7050d6f4b73, type: 3}
+  m_Resource: {fileID: 8300000, guid: cd3132aa6d23caf468c0a7050d6f4b73, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
