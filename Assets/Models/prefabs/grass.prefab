@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a40d90970b51535438cd35b63376d4f8, type: 3}
+      propertyPath: m_TagString
+      value: "Corn\xE9"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

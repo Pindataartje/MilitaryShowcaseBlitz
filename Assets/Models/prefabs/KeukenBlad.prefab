@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: KeukenBlad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8dc1f16b5719fb64d9ec15241394e399, type: 3}
+      propertyPath: m_TagString
+      value: "Corn\xE9"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

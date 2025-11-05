@@ -178,7 +178,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 7b3a5ce910ece98429d1ead6920150ca, type: 2}
     - target: {fileID: 919132149155446097, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
       propertyPath: m_Name
-      value: kastlow 1
+      value: kasteten2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bcc3a4be5ad07a442bbc471fd949f0dc, type: 3}
+      propertyPath: m_TagString
+      value: "Corn\xE9"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

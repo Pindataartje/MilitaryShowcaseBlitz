@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: struik
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 12526c86863ac8a43bd4f1266c13b2f2, type: 3}
+      propertyPath: m_TagString
+      value: "Corn\xE9"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

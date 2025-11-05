@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: flowers
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 504e9a12ac166324ca34acd313d800dc, type: 3}
+      propertyPath: m_TagString
+      value: "Corn\xE9"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

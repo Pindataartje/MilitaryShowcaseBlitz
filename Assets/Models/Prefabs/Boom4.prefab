@@ -80,6 +80,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boom4
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9da7152c00f03ca479fc8a4d528e7ff4, type: 3}
+      propertyPath: m_TagString
+      value: "Corn\xE9"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

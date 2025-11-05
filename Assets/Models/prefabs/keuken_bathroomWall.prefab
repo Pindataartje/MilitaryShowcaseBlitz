@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2353340321340153727}
   m_Layer: 0
   m_Name: keuken_bathroomWall
-  m_TagString: Untagged
+  m_TagString: "Corn\xE9"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
